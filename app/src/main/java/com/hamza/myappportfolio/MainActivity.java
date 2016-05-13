@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void response(View view) {
         Button button = (Button) view;
-        String buttonText= button.getText().toString();
-        Toast.makeText(getBaseContext(),"This button will lunch my \"" + buttonText + "\" app!",Toast.LENGTH_SHORT).show();
+        String buttonText = button.getText().toString();
+        Toast.makeText(getBaseContext(), "This button will lunch my \"" + buttonText + "\" app!", Toast.LENGTH_SHORT).show();
 
     }
 }
